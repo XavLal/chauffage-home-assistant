@@ -1,5 +1,5 @@
 blueprint:
-  name: Thermostat TPI
+  name: Thermostat TPI - Auxagama
   description: Thermostat TPI (Time Propertional & Integral)
   domain: automation
 
@@ -43,6 +43,7 @@ blueprint:
     entity_fenetre:
       name: Fenètre
       description: Capteur d'ouverture de fenêtre (sensor)
+      default: off
       selector:
         entity:
           domain: binary_sensor
